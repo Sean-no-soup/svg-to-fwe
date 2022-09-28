@@ -19,6 +19,7 @@
  - default option to limit node count on small radii
  - option to use color to set team of terrain blocks
  - gradient approximations
+ - option to attempt removal of degenerate block areas (0-width, spindly artifacts of trace. ect)
  - subtractions?
  - incorporate destructible terrain script
  
