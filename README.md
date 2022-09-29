@@ -4,18 +4,19 @@
  - Sean-no-soup@gmail.com
  - [Discord](https://discord.gg/bHYWvVGRrF) 
  ## Features
- - convert filled paths to terrain (duh)
- - convert curves to lines (fwe only uses lines)
+ - EXPORT-INATOR!! convert filled paths to terrain (duh)
+ - LINE-INATOR!!! convert curves to lines (fwe only uses lines)
 
 ## planned features/functions/to-do
 
- - implement svgpathtools
- - reduce all path elements to line segments
+ - implement svgpathtools in export to fwe
  - fix color
- - fix and add option to set terrain flags
  - implement transforms from svg
- - scale new blocks
- - optimize/organize line-inator
+
+Release!
+
+ - fix and add option to set terrain flags
+ - normalize scale of new blocks
  - preview
  - default option to limit node count on small radii
  - option to use color to set team of terrain blocks
