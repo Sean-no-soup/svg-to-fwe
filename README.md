@@ -34,7 +34,11 @@ PLEASE YES
 [Discord](https://discord.gg/bHYWvVGRrF) 
 
 ## Change log
-**0.1.0**
+**0.1.1**
+ - line-inator
+ - browser preview of path elements
+ - export disabled
 
+**0.1.0**
  - kinda functioning but very limited, github pre-release
 
