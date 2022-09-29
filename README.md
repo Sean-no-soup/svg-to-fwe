@@ -35,6 +35,7 @@ PLEASE YES
 
 ## Change log
 **0.1.1**
+ - clearer handling of missing dependencies
  - line-inator
  - browser preview of path elements
  - export disabled
