@@ -12,6 +12,7 @@
  - implement svgpathtools in export to fwe
  - fix color
  - implement transforms from svg
+ - if __name__ == "__main__": so functions could be used as a library (but with svgpathtools is that needed?, perhaps to implement a gui)
 
 Release!
 
@@ -36,5 +37,5 @@ PLEASE YES
 ## Change log
 **0.1.0**
 
- - kinda functioning, github launch
+ - kinda functioning but very limited, github pre-release
 
