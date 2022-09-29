@@ -5,7 +5,7 @@
  - [Discord](https://discord.gg/bHYWvVGRrF) 
  ## Features
  - convert filled paths to terrain (duh)
- - convert some bezier curves to lines (fwe only uses lines)
+ - convert curves to lines (fwe only uses lines)
 
 ## planned features/functions/to-do
 
@@ -15,6 +15,7 @@
  - fix and add option to set terrain flags
  - implement transforms from svg
  - scale new blocks
+ - optimize/organize line-inator
  - preview
  - default option to limit node count on small radii
  - option to use color to set team of terrain blocks
