@@ -37,6 +37,10 @@ PLEASE YES
 [Discord](https://discord.gg/bHYWvVGRrF) 
 
 ## Change log
+**0.2.0**
+-export to .fwe fixed and re-enabled
+-fixed color
+
 **0.1.2**
  -style-inator and line-inator per-path in prep()
 
