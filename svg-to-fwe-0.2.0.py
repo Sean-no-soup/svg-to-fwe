@@ -3,8 +3,8 @@ try:import map_editor as ximsa
 except:input("missing dependency: ximsa's map editor")
 try:import os
 except:input('missing dependency: os')
-try:import itertools
-except:input('missing dependency: itertools')
+##try:import itertools
+##except:input('missing dependency: itertools')
 ##try:import tkinter as tk
 ##except:input('missing dependency: tkinter') 
 try:import numpy as np
