@@ -29,7 +29,7 @@ Release!
  - - if __name__ == "__main__": so functions could be used as a library (but with svgpathtools is that needed?, perhaps to implement a gui)
  
 ## Installing (don't yet)
-use the readme, further instruction posted with later releases
+use the readme, further instruction posted here with releases
 
 might be broken; good luck
 
@@ -38,6 +38,10 @@ PLEASE YES
 [Discord](https://discord.gg/bHYWvVGRrF) 
 
 ## Change log
+**0.2.1**
+-improved preview
+-fixed degenerate nodes on curve approximations
+
 **0.2.0**
 -export to .fwe fixed and re-enabled
 -fixed color
