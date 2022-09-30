@@ -39,15 +39,16 @@ PLEASE YES
 
 ## Change log
 **0.2.1**
--improved preview
--fixed degenerate nodes on curve approximations
+- improved preview
+- fixed degenerate nodes on curve approximations
+- 
 
 **0.2.0**
--export to .fwe fixed and re-enabled
--fixed color
+- export to .fwe fixed and re-enabled
+- fixed color
 
 **0.1.2**
- -style-inator and line-inator per-path in prep()
+ - style-inator and line-inator per-path in prep()
 
 **0.1.1**
  - clearer handling of missing dependencies
