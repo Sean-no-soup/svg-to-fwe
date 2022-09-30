@@ -40,7 +40,7 @@ PLEASE YES
 ## Change log
 **0.2.1**
 - improved preview
-- fixed degenerate nodes on curve approximations
+- fixed degenerate nodes and disconinuities on curve approximations
 - 
 
 **0.2.0**
