@@ -5,7 +5,7 @@
  - [Discord](https://discord.gg/bHYWvVGRrF) 
  ## Features
  - LINE-INATOR!!! convert curves to lines (fwe only uses lines)
- - STYLE-INATOR (convert attributes, including embeded css-style, to necessary attributes for export. INCOMPLETE; sets gradients to #000000 and clip paths to none) 
+ - STYLE-INATOR (rudimentarally convert attributes, including embeded css-style, to necessary attributes for export. sets gradients to #000000 and clip paths to no fill) 
  - preview in browser vectors
 
 ## planned features/functions/to-do
