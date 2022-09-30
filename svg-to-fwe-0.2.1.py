@@ -56,11 +56,18 @@ def line_inator(path): #indexing issues!, list path elements per path that aren'
     if type(pathElement) != svgt.path.Line:
       issueIndexes.append(i)
   if len(issueIndexes) > 0:
+    
     for i in issueIndexes[::-1]: #end to beginning of path to avoid indexing issues, index of each non-line element
-      coords = list(path[i].point(t) for t in reversed(np.arange(0, 1, step))) #coords along issue element, end to beginning
+      coords = list(path[i].point(t) for t in reversed(np.arange(0, 1.1, step))) #coords along issue element, end to beginning
+      prevStart = path[i].start
+      prevEnd = path[i].end
+      
       path.remove(path[i])
       for j in range(len(coords)-1): #replace now missing element with lines from the prior end to start, again to avoid indexing issues
-        path.insert(i,svgt.Line(start = coords[j], end = coords[j+1]))
+        path.insert(i,svgt.Line(start = coords[j+1], end = coords[j]))
+        if j == 0:path[i].end = prevEnd
+      path[i].start = prevStart
+    
   return
 
 def style_inator(pathsAttributes,index):
@@ -132,7 +139,6 @@ for n in range(12):
 svgt.disvg(svgPaths,filename = 'SVGtoFWEpreview.svg',attributes = svgPathsAttributes)
 print("\nadd the vectors in {} to the file '{}' \nteam {} with flags{}, \nand blocks named '{}'\n(y/n)?\n".format(vectorFile,mapFile,blockTeamId,ximsa.Flags.readable(blockFlags),blockName),end = '')
 if not yn(input()):
-  print('exit')
   quit
 
 
