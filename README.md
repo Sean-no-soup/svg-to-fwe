@@ -7,9 +7,9 @@
  - LINE-INATOR!!! convert curves to lines (fwe only uses lines)
  - STYLE-INATOR (rudimentarally convert attributes, including embeded css-style, to necessary attributes for export. sets gradients to #000000 and clip paths to no fill) 
  - preview in browser vectors
+ - EXPORT to .FWE!
 
 ## planned features/functions/to-do
- - implement svgpathtools in export to fwe  EXPORT-INATOR
  - implement transforms from svg 
  
 Release!
