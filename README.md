@@ -11,6 +11,7 @@
 
 ## planned features/functions/to-do
  - implement transforms from svg 
+ - limit node count
  
 Release!
 
