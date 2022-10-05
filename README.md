@@ -14,7 +14,8 @@
  - limit node count
  
 Release!
-
+ 
+ - scour handling
  - fix and add option to set terrain flags
  - normalize scale of new blocks
  - default option to limit/change node count on small radii
@@ -38,6 +39,10 @@ PLEASE YES
 [Discord](https://discord.gg/bHYWvVGRrF) 
 
 ## Change log
+**0.2.2**
+- transforms.... (this is driving me up a wall)
+
+
 **0.2.1**
 - improved preview
 - fixed degenerate nodes and disconinuities on curve approximations
