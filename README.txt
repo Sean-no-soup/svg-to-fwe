@@ -1,26 +1,18 @@
 ---------------------------------------------------------------------------------------------------
-REQUIREMENTS/INSTALLATION (0.2.0)
--python3
+NEED 
+-PYTHON (duh)
+-Modules/dependencies (depend on version but span):
+	Ximsa's map editing library
+		matplotlib
+		math
+		struct
+		sys
+	os                          (included in standard python utility modules)
+	numpy                       https://numpy.org/install/                          pip install numpy
+	itertools                   https://docs.python.org/3/library/itertools.html    pip install more-itertools	
+	sv.path                     https://github.com/regebro/svg.path   
+	
 
--Modules/dependencies:
-	ximsa's map editor (included)
-	
-	os (python default module)
-	
-	numpy 
-		https://pypi.org/project/numpy/ 
-		pip install numpy
-		
-	svgpathtools 
-		https://pypi.org/project/svgpathtools/ 
-		pip install svgpathtools
-		
--in the same directory (folder)
-	svg-to-fwe-0.2.0.py
-	map_editor.py
-	<vector file you want to use>.svg
-	
-'run 'svg-to-fwe-0.2.0.py'
 ---------------------------------------------------------------------------------------------------
 Some helpful tools
 https://www.autotracer.org/
@@ -29,11 +21,11 @@ https://www.autotracer.org/
 https://inkscape.org/
 	for more detailed design stuff, more complex functions may not be supported when converting
 ---------------------------------------------------------------------------------------------------
-WARNING
--Many more advanced features of the svg format cannot be faithfully recreated withing the limitations of a forts war environment. work to approximate things such as gradients is ongoing but will take a while.
 
--gradients are currently replaced with fill=#000000
--svg path transforms aren't implemented yet
+map_editor.py and the svg-to-fwe.py must be in the same directory
+
 ---------------------------------------------------------------------------------------------------
-SUPPORT/FEATURE REQUEST/ECT:
--  https://discord.gg/bHYWvVGRrF  -  Sean, no soup#5766  -
+AT THIS TIME ONLY VECTORS WITH FILL WILL BE INCLUDED, 
+GRADIENT FILLS ARE CURRENTLY IGNORED, CLIP PATHS ARE DISABLED,
+SOME TRANSFORM FUNCTIONS ARE BROKEN
+STROKE WIDTH DOES NOT HAVE ANY EFFECT. 
