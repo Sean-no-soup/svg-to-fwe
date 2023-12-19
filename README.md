@@ -8,11 +8,11 @@ I wanted to be able to do the gruntwork of designing terrain for forts
 (either for actual game-look-nice purposes or for utter meme abominations) 
 in something more forgiving and efficient than the forts map editor. 
 
-since forts maps format .fwe (forts war environment) is already so close to vector formats 
+since the forts maps format .fwe (forts war environment) is already so close to vector formats the 
 current focus has been on converting vector format .svg (scalable vector graphics) to .fwe. 
 
-,and use .svg as a stepping stone for other formats
-i.e. posterize and then trace boundarties of a raster image into vectors. this could also serve as a general map making library with tools for scripting shenanigans.
+and to use .svg as a stepping stone for other formats
+i.e. posterize and then trace boundaries of a raster image into vectors. this could also serve as a general map making library with tools for scripting shenanigans.
 
 
 
