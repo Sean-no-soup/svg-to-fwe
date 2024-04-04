@@ -29,7 +29,7 @@ i.e. posterize and then trace boundaries of a raster image into vectors. this co
  - flatten transforms (or hijack a javascript library I found)
  - find a library that fucking works so I don't have to literally make a vector drawing and editing program from scratch (yippity yoo I'm doin that)
  - limit node count smarter
- - basic terminal ui
+ - basic ui
  - helper theme for tiling, textures, props? wait, where are props saved (stay on task soup) wait.......... I have ideas (stoppit soup)
 
  
@@ -61,6 +61,7 @@ PLEASE YES
 ## Change log
 **0.2.2**
 - transforms.... very broken, again (this is driving me up a wall)
+- put some more stuff on cloud instead of just locally using these to test
 
 **0.2.1**
 - improved preview
