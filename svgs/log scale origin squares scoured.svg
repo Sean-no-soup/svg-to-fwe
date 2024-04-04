@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg5" width="300mm" height="300mm" version="1.1" viewBox="-2000 -2000 4000 4000" xmlns="http://www.w3.org/2000/svg">
+ <g id="layer1" fill="none" stroke="#000">
+  <rect id="rect964" x="-1" y="-1" width="2" height="2"/>
+  <rect id="rect990" x="-10" y="-10" width="20" height="20"/>
+  <rect id="rect1016" x="-100" y="-100" width="200" height="200"/>
+  <rect id="rect1345" x="-1000" y="-1000" width="2000" height="2000"/>
+  <rect id="rect1350" x="-10000" y="-10000" width="20000" height="20000"/>
+ </g>
+</svg>
