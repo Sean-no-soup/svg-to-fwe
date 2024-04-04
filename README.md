@@ -21,18 +21,19 @@ i.e. posterize and then trace boundaries of a raster image into vectors. this co
  - LINE-INATOR!!! convert curves and boxes to lines
  - STYLE-INATOR convert all the things into a .fwe friendly format of rgb line paths (but not yet transforms, clip paths, gradients,? )
  - preview in browser vectors
- - EXPORT to .FWE!
+ - export to .FWE
 
 ## planned features/functions/to-do
- - implement transforms from svg or
- - find a library that fucking works so I don't have to literally make a vector drawing and editing program from scratch
- - limit node count somewhat better
- - basic ui (probably still terminal)
- - helper theme for tiling, textures, props? wait, where are props saved (stay on task soup)
+ - open an actual file selection and preview dialog... hmmmmmm potential issue bc javascript browser preview
+ - make my own parser using dom
+ - flatten transforms (or hijack a javascript library I found)
+ - find a library that fucking works so I don't have to literally make a vector drawing and editing program from scratch (yippity yoo I'm doin that)
+ - limit node count smarter
+ - basic terminal ui
+ - helper theme for tiling, textures, props? wait, where are props saved (stay on task soup) wait.......... I have ideas (stoppit soup)
 
  
 Release!?
- 
  - scour handling
  - fix and add option to set terrain flags
  - normalize scale of svg to worldbounds
